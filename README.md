@@ -1,2 +1,3 @@
 # HRIS-Capstone
-asdawr3r2dsfsfzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+WOrkspace ni clar 
+login and dashboard ui
