@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body>
+    <div class="bg-black py-4 flex justify-end sticky top-0">
+        <div class="text-teal-500 flex items-center justify-center w-full text-2xl">Your Company Name</div>
+    </div>
+
+    <div class="flex">
+        <div class="w-56 h-screen bg-amber-500 fixed drop-shadow-2xl">
+            <div class="text-center flex flex-col mb-5 text-xl/[55px]">
+                <div class="flex items-center justify-center space-x-2">
+                    <img src="image/profile3.png" alt="User Avatar" class="h-30 w-20">
+                    <div>User Name</div>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <div class="flex flex-col space-y-10 text-xl/[55px] text-left ml-11">
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Employee</a></li>
+                        <li><a href="#">Attendance</a></li>
+                        <li><a href="#">Performance</a></li>
+                        <li><a href="#">Calendar</a></li>
+                        <li><a href="#">Leave</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Content outside of the sidebar -->
+    <div class="ml-80 pl-10 flex space-x-40 mt-40 rounded-lg p-1">
+          <!-- Box with the text "Present today is 89" -->
+         <div class="bg-amber-500 border border-gray-300 rounded-lg py-10 p-4 flex-10 drop-shadow-lg">
+              <div class="text-xl font-bold text-gray-800">Present Today</div>
+              <div class="text-3xl font-bold text-gray-900">25</div>
+         </div>
+    <!-- Box with the text "On leave today 2" -->
+         <div class="bg-amber-500 border border-gray-300 rounded-lg py-10 p-4 flex-10 drop-shadow-lg">
+              <div class="text-xl font-bold text-gray-800">On Leave Today</div>
+              <div class="text-3xl font-bold text-gray-900">2</div>
+         </div>
+    <!-- Box with the text "Total employees 91" -->
+          <div class="bg-amber-500 border border-gray-300 rounded-lg py-10 p-4 flex-10 drop-shadow-lg">
+              <div class="text-xl font-bold text-gray-800">Total Employees</div>
+              <div class="text-3xl font-bold text-gray-900">27</div>
+         </div>
+    </div>
+</div>
+
+</body>
+</html>
