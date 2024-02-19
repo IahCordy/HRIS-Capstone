@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel = "stylesheet" href = "dashboard.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
@@ -15,16 +16,19 @@
     <div class="flex">
         <div class="w-56 h-screen bg-amber-500 fixed drop-shadow-2xl">
             <div class="text-center flex flex-col mb-5 text-xl/[55px]">
-                <div class="flex items-center justify-center space-x-2">
-                    <img src="image/profile3.png" alt="User Avatar" class="h-30 w-20">
-                    <div>User Name</div>
+                <div class="flex items-center justify-center">
+                    
+                    <img class = "profile" src="profile3.png">
+                    
                 </div>
+                
+                
             </div>
+            <center class="user"><div>Username</div>
+             </center>
             <nav>
                 <ul> 
-                
-                    <div class="flex flex-col space-y-10 text-xl/[55px] ">
-                        <link rel = "stylesheet" href = "dashboard.css">
+
                         <button class ="dashboard">Dashboard</button>
                         <button class ="employee">Employee</button>
                         <button class ="attendance">Attendance</button>
@@ -42,10 +46,11 @@
         <!-- Content outside of the sidebar -->
     <div class="ml-80 pl-10 flex space-x-40 mt-40 rounded-lg p-1">
           <!-- Box with the text "Present today is 89" -->
-         <div class="bg-amber-500 border border-gray-300 rounded-lg py-10 p-4 flex-10 drop-shadow-lg">
+        <div class="bg-amber-500 border border-gray-300 rounded-lg py-10 p-4 flex-10 drop-shadow-lg">
               <div class="text-xl font-bold text-gray-800">Present Today</div>
               <div class="text-3xl font-bold text-gray-900">25</div>
          </div>
+       
     <!-- Box with the text "On leave today 2" -->
          <div class="bg-amber-500 border border-gray-300 rounded-lg py-10 p-4 flex-10 drop-shadow-lg">
               <div class="text-xl font-bold text-gray-800">On Leave Today</div>
@@ -58,6 +63,7 @@
          </div>
     </div>
 </div>
+
 
 </body>
 </html>
