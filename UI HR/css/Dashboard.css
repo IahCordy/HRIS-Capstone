@@ -3,7 +3,12 @@ body{
     margin: 0;
     padding: 0;
 }
-
+div.scroll
+{
+Width:5px;
+Height:10 px;
+Overflow-y:scroll;
+}
 /* Top bar styles */
 .topbar {
     position: sticky;
@@ -30,7 +35,7 @@ body{
     width: 200px;
     background-color: #f2f2f2; /* Adjust color as needed */
     height: 100vh; /* Adjust height to fill viewport */
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
 }
@@ -55,9 +60,13 @@ a {
     padding:none;
     text-align:center;
     margin-left: 12px;
+    margin-top: 50px;
+    height:50px;
     width:200px;
     border-radius: 20px;
     transition:opacity 0.7s,color .7s,box-shadow .2s;
+    font-size: 15px;
+    font-weight:bold;
 }
 .dashboard:hover{
     opacity:0.6;
@@ -71,9 +80,13 @@ a {
     padding:none;
     text-align:center;
     margin-left: 12px;
+    margin-top: 12px;
+    height:50px;
     width:200px;
     border-radius: 20px;
     transition:opacity 0.7s,color .7s,box-shadow .2s;
+    font-size: 15px;
+    font-weight:bold;
 }
 .employee:hover{
     opacity:0.6;
@@ -89,9 +102,13 @@ a {
     padding:none;
     text-align:center;
     margin-left: 12px;
+    margin-top: 12px;
+    height:50px;
     width:200px;
     border-radius: 20px;
     transition:opacity 0.7s,color .7s,box-shadow .2s;
+    font-size: 15px;
+    font-weight:bold;
 }
 .attendance:hover{
     opacity:0.6;
@@ -106,9 +123,13 @@ a {
     padding:none;
     text-align:center;
     margin-left: 12px;
+    margin-top: 12px;
+    height:50px;
     width:200px;
     border-radius: 20px;
     transition:opacity 0.7s,color .7s,box-shadow .2s;
+    font-size: 15px;
+    font-weight:bold;
 }
 .performance:hover{
     opacity:0.6;
@@ -123,9 +144,13 @@ a {
     padding:none;
     text-align:center;
     margin-left: 12px;
+    margin-top: 12px;
+    height:50px;
     width:200px;
     border-radius: 20px;
     transition:opacity 0.7s,color .7s,box-shadow .2s;
+    font-size: 15px;
+    font-weight:bold;
 }
 .calendar:hover{
     opacity:0.6;
@@ -139,9 +164,13 @@ a {
     padding:none;
     text-align:center;
     margin-left: 12px;
+    margin-top: 12px;
+    height:50px;
     width:200px;
     border-radius: 20px;
     transition:opacity 0.7s,color .7s,box-shadow .2s;
+    font-size: 15px;
+    font-weight:bold;
 }
 .leave:hover{
     opacity:0.6;
@@ -155,12 +184,31 @@ a {
     padding:none;
     text-align:center;
     margin-left: 12px;
+    margin-top: 12px;
+    height:50px;
     width:200px;
     border-radius: 20px;
     transition:opacity 0.7s,color .7s,box-shadow .2s;
+    font-size: 15px;
+    font-weight:bold;
 }
 .settings:hover{
     opacity:0.6;
     color:white;
     box-shadow:3px 3px 3px rgba(0,0,0,0.6)
+}
+
+.profile{
+    margin-top:15px;
+    width:120px;
+    height:120px;
+    border-width:3.5px;
+    border-style:solid;
+    border-color:black;
+    object-position: contain;
+    border-radius:20px;
+}
+
+.user{
+    font-weight:Bold;
 }
