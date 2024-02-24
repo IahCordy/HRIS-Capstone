@@ -1,0 +1,166 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Top bar styles */
+.topbar {
+    position: sticky;
+    top: 0;
+    background-color: #333; /* Adjust color as needed */
+    color: white;
+    padding: 16px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.compname {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: sticky;
+    width: 200px;
+    background-color: #f2f2f2; /* Adjust color as needed */
+    height: 100vh; /* Adjust height to fill viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    color: #333; /* Adjust color as needed */
+    text-decoration: none;
+}
+
+.dashboard{
+    background-color: rgb(128,128,128);
+    border:none;   
+    color:black;
+    padding:none;
+    text-align:center;
+    margin-left: 12px;
+    width:200px;
+    border-radius: 20px;
+    transition:opacity 0.7s,color .7s,box-shadow .2s;
+}
+.dashboard:hover{
+    opacity:0.6;
+    color:white;
+    box-shadow:3px 3px 3px rgba(0,0,0,0.6)
+}
+.employee {
+    background-color: rgb(128,128,128);
+    border:none;
+    color:black;
+    padding:none;
+    text-align:center;
+    margin-left: 12px;
+    width:200px;
+    border-radius: 20px;
+    transition:opacity 0.7s,color .7s,box-shadow .2s;
+}
+.employee:hover{
+    opacity:0.6;
+    color:white;
+    box-shadow:3px 3px 3px rgba(0,0,0,0.6)
+}
+
+
+.attendance {
+    background-color: rgb(128,128,128);
+    border:none;
+    color:black;
+    padding:none;
+    text-align:center;
+    margin-left: 12px;
+    width:200px;
+    border-radius: 20px;
+    transition:opacity 0.7s,color .7s,box-shadow .2s;
+}
+.attendance:hover{
+    opacity:0.6;
+    color:white;
+    box-shadow:3px 3px 3px rgba(0,0,0,0.6)
+}
+
+.performance {
+    background-color: rgb(128,128,128);
+    border:none;
+    color:black;
+    padding:none;
+    text-align:center;
+    margin-left: 12px;
+    width:200px;
+    border-radius: 20px;
+    transition:opacity 0.7s,color .7s,box-shadow .2s;
+}
+.performance:hover{
+    opacity:0.6;
+    color:white;
+    box-shadow:3px 3px 3px rgba(0,0,0,0.6)
+}
+
+.calendar {
+    background-color: rgb(128,128,128);
+    border:none;
+    color:black;
+    padding:none;
+    text-align:center;
+    margin-left: 12px;
+    width:200px;
+    border-radius: 20px;
+    transition:opacity 0.7s,color .7s,box-shadow .2s;
+}
+.calendar:hover{
+    opacity:0.6;
+    color:white;
+    box-shadow:3px 3px 3px rgba(0,0,0,0.6)
+}
+.leave {
+    background-color: rgb(128,128,128);
+    border:none;
+    color:black;
+    padding:none;
+    text-align:center;
+    margin-left: 12px;
+    width:200px;
+    border-radius: 20px;
+    transition:opacity 0.7s,color .7s,box-shadow .2s;
+}
+.leave:hover{
+    opacity:0.6;
+    color:white;
+    box-shadow:3px 3px 3px rgba(0,0,0,0.6)
+}
+.settings {
+    background-color: rgb(128,128,128);
+    border:none;
+    color:black;
+    padding:none;
+    text-align:center;
+    margin-left: 12px;
+    width:200px;
+    border-radius: 20px;
+    transition:opacity 0.7s,color .7s,box-shadow .2s;
+}
+.settings:hover{
+    opacity:0.6;
+    color:white;
+    box-shadow:3px 3px 3px rgba(0,0,0,0.6)
+}

@@ -1,2 +1,3 @@
 # HRIS-Capstone
-asdadwad
+Workspace ni clar 
+login and dashboard ui
