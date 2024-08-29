@@ -1,0 +1,110 @@
+body.custom-background {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.homebar {
+    background-color: #4CAF50;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+.containerhomepage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.inquire-btn {
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.landingcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.svg-container {
+    margin-bottom: 2em;
+}
+
+.svgillu {
+    width: 300px;
+    height: auto;
+}
+
+.my-form-content {
+    background-color: white;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.my-form-title {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.my-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-form .form-group {
+    margin-bottom: 1em;
+}
+
+.my-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.my-form input[type="email"],
+.my-form input[type="password"],
+.my-form select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.my-form input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+.show-password-container {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.my-form button {
+    padding: 0.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.my-form button:hover {
+    background-color: #45a049;
+}
