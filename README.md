@@ -2,8 +2,9 @@
 
 Payroll System using bootstrap Corda
 
-Admin Credentials: User: 
-FEU Pass: Admin123
+##Admin Credentials: 
+1. User: 
+2. FEU Pass: Admin123
 
 ## STEPS:
 
