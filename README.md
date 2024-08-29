@@ -1,6 +1,8 @@
 # HRIS-Capstone
 
 Payroll System using bootstrap Corda
+# IMPORTANT
+Make seperate branches if you're planning to make changes, unless you know what you're doing!
 
 ### Admin Credentials: 
 1. User: 
