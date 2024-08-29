@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="./views/output.css" rel="stylesheet"/>
+</head>
+<body class="custom-background"> 
+    <div class="homebar">
+        <div class="containerhomepage">
+            <h1 class="logo">HR Solution</h1>
+            <button class="inquire-btn">Inquire for Service</button>
+        </div>
+    </div>
+    <div class="landingcont">
+        <!-- SVG image -->
+        <div class="svg-container">
+            <img src="undraw_working_remotely_re_6b3a.svg" alt="Working Remotely" class="svgillu">
+        </div>
+    
+        <div class="my-sign-up-container">
+            <div class="my-form-content">
+                <h1 class="my-form-title">
+                    Create an account
+                </h1>
+
+                <form class="my-form" id="signupForm" method="post" action="signup.php">
+
+                    <div>
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" placeholder="Full Name" required="">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="name@gmail.com" required="">
+                    </div>
+            <!-- Inside the form -->
+              <!-- Inside the form -->
+                    <div class="show-password-container">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="********" required="">
+                        <label for="showPassword">Show Password</label>
+                        <input type="checkbox" id="showPassword">
+                    </div>
+            
+                    <div>
+                        <label for="role">Role</label>
+                        <select id="role" name="role" required="">
+                            <option value="employee">Employee</option>
+                            <option value="hr">HR</option>
+                        </select>
+                    </div>
+                    <button class="mt-4" type="submit">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
